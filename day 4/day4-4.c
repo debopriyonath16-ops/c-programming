@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     char ch;
     printf("Enter H or h for head and T or t for tails: ");

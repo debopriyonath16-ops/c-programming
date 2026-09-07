@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-	int i,a=0,b=1;
+	int i,n,facto=1;
 	printf("enter number:");
-	scanf("%d",&a);
-	for (i=1;a>0;a--){
-		b=a*b;
+	scanf("%d",&n);
+	for (i=1;i<=n;i++){
+		facto=facto*i;
 	}
-	printf("Factorial is %d",b);
+	printf("Factorial is %d",facto);
 	return 0;
 }

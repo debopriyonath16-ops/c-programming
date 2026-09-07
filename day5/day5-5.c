@@ -1,11 +1,9 @@
 #include<stdio.h>
 int main(){
-	int i,n,a=0;
-	printf("enter number of terms:");
-	scanf("%d",&n);
-	for (i=1;i<=n;i++){
+	int i,a=0;
+	for (i=1;i<=10;i++){
 		a=a+i*i;
 	}
-	printf("sum of squares: %d",a);
+	printf("sum of squares of 1st 10 natural numbers: %d",a);
 	return 0;
 }
